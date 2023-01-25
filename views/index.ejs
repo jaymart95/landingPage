@@ -7,7 +7,7 @@
   <!-- title -->
   <title>Vanity Roles</title>
   <meta name="description" content="Vanity Roles">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="/static/styles/styles.css" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
@@ -15,25 +15,10 @@
   <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#000000">
   <link rel="shortcut icon" href="./favicons/favicon.ico">
   <meta name="msapplication-TileColor" content="#000000">
+  <meta property="og:image"
+    content="https://cdn.discordapp.com/avatars/1057043734526701589/8b0046fffa65198d75d977f626ded25e.png?size=256" />
   <meta name="msapplication-config" content="./favicons/browserconfig.xml">
   <meta name="theme-color" content="#000000">
-
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            "primary-dark": "#0D0F19",
-            "primary-card": "#151720",
-            "priamry-card-blue": "#303FE1",
-            "primary-light": "#29142b",
-            "primary-blue": "#2A38C7",
-            "primary-blue-light": "#214AA3",
-          },
-        },
-      },
-    };
-  </script>
 </head>
 
 <body class="bg-primary-dark">
@@ -46,7 +31,7 @@
         <a class="mr-6 md:mr-8 hover:text-white cursor-pointer" href="https://vanityroles.com/">Home</a>
         <a class="mr-6 md:mr-8 hover:text-white cursor-pointer" href="https://docs.vanityroles.com"
           target="_blank">Docs</a>
-        <a class="mr-6 md:mr-8 hover:text-white cursor-pointer" href="https://discord.gg/vanityroles">Support</a>
+        <a class="mr-6 md:mr-8 hover:text-white cursor-pointer" href="https://discord.gg/vanityroles" target="_blank">Support</a>
 
       </nav>
       <a href="https://vanityroles.com/dashboard.html" target="_blank">
