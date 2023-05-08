@@ -520,17 +520,20 @@ video {
 .mt-4 {
   margin-top: 1rem;
 }
-.mt-\[0\.08rem\] {
-  margin-top: 0.08rem;
-}
-.ml-2 {
-  margin-left: 0.5rem;
-}
 .mb-16 {
   margin-bottom: 4rem;
 }
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+.ml-\[20rem\] {
+  margin-left: 20rem;
+}
+.mt-36 {
+  margin-top: 9rem;
+}
+.mt-8 {
+  margin-top: 2rem;
 }
 .inline-block {
   display: inline-block;
@@ -544,14 +547,8 @@ video {
 .hidden {
   display: none;
 }
-.h-4 {
-  height: 1rem;
-}
 .h-12 {
   height: 3rem;
-}
-.w-4 {
-  width: 1rem;
 }
 .max-w-xl {
   max-width: 36rem;
@@ -588,11 +585,11 @@ video {
 }
 .bg-primary-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(13 15 25 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 .bg-primary-blue {
   --tw-bg-opacity: 1;
-  background-color: rgb(42 56 199 / var(--tw-bg-opacity));
+  background-color: rgb(213 35 14 / var(--tw-bg-opacity));
 }
 .bg-slate-500 {
   --tw-bg-opacity: 1;
@@ -607,9 +604,6 @@ video {
 }
 .p-2 {
   padding: 0.5rem;
-}
-.p-4 {
-  padding: 1rem;
 }
 .py-\[0\.4rem\] {
   padding-top: 0.4rem;
@@ -697,13 +691,25 @@ video {
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
 }
-.text-slate-400 {
+.text-slate-500 {
   --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
+  color: rgb(100 116 139 / var(--tw-text-opacity));
+}
+.text-slate-300 {
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
+}
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 .text-gray-500 {
   --tw-text-opacity: 1;
@@ -738,7 +744,7 @@ video {
 }
 .hover\:text-primary-blue:hover {
   --tw-text-opacity: 1;
-  color: rgb(42 56 199 / var(--tw-text-opacity));
+  color: rgb(213 35 14 / var(--tw-text-opacity));
 }
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
@@ -777,10 +783,6 @@ video {
   .sm\:border-gray-200 {
     --tw-border-opacity: 1;
     border-color: rgb(229 231 235 / var(--tw-border-opacity));
-  }
-
-  .sm\:p-6 {
-    padding: 1.5rem;
   }
 
   .sm\:py-2 {
@@ -827,6 +829,10 @@ video {
     display: block;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:inline-flex {
     display: inline-flex;
   }
@@ -846,6 +852,11 @@ video {
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 
   .md\:text-lg {
@@ -870,6 +881,16 @@ video {
   .lg\:py-32 {
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .lg\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .lg\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 @media (min-width: 1280px) {

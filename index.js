@@ -8,6 +8,9 @@ app.use('/static', express.static('static'));
 app.get('/', (req, res) => {
     res.render('index.ejs');
 });
+app.get('/premium', (req, res) => {
+    res.render('premium.ejs');
+});
 
 app.get('/invite', (req, res) => {
     res.redirect('https://discord.com/oauth2/authorize?client_id=1057043734526701589&permissions=2415938576&scope=bot%20applications.commands');
